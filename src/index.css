@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'Work Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --color-ink: #0f1a1c;
+  --color-teal: #0d7a6e;
+  --color-teal-light: #e6f4f2;
+  --color-teal-mid: #1a9d8e;
+  --color-slate: #2c4a4e;
+  --color-mist: #f4f7f6;
+  --color-rule: #c8d8d5;
+  --color-warm: #f9faf8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

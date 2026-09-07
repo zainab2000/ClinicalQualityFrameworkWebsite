@@ -1,0 +1,10 @@
+{
+  "description": "This platform enhances physical therapy by providing evidence-based assessments and personalized treatment plans, empowering therapists and patients for optimal recovery.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
